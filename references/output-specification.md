@@ -2,21 +2,24 @@
 
 이 reference는 기본 글꼴, 글자 크기, 목표 분량, FMEA row 목표를 정의한다. 고객사 Word 템플릿 스타일이 명확하면 템플릿을 우선하되, 새로 삽입하는 문단과 표에는 이 기준을 적용한다.
 
+## Output language
+- Korean
+
 ## Default Formatting
 
 - Body font: Arial
 - Body font size: 10 pt
 - Table font: Arial
-- Table font size: 8.5-9 pt
+- Table font size: 9 pt
 - Heading style: preserve customer template heading styles
 - Line spacing: preserve template default unless user specifies otherwise
 - Page margins, header, footer, logo, approval block: preserve customer template
 
 ## Target Length
 
-- RMP: target 18-22 pages, nominal 20 pages
-- RMR: target 35-45 pages, nominal 40 pages
-- FMEA/Risk Analysis: at least 30 Risk IDs for a complete first draft unless the device is extremely simple
+- RMP: target 18-22 pages, nominal 20 pages, output file .docx
+- RMR: target 35-45 pages, nominal 40 pages, output file .docx
+- FMEA/Risk Analysis: at least 30 Risk IDs for a complete first draft unless the device is extremely simple, output file .xlsx
 
 ## Length Control Rules
 
@@ -29,7 +32,6 @@
 ## FMEA Risk ID Rules
 
 - Create at least 30 Risk IDs when preparing a complete first-draft FMEA for a typical active or software-related medical device.
-- For simple non-active devices, fewer rows may be justified, but provide the rationale.
 - Risk IDs should cover:
   - Intended use
   - Reasonably foreseeable misuse
